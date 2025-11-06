@@ -30,8 +30,8 @@
     <li><a href="#structure">폴더 구조</a></li>
     <li><a href="#build">빌드 & 실행</a></li>
     <li><a href="#roadmap">로드맵 (OpenCV 확장)</a></li>
+    <li><a href="#insights">개선점 & 배운 점</a></li>
     <li><a href="#credits">크레딧</a></li>
-    <li><a href="#license">라이선스</a></li>
   </ol>
 </div>
 
@@ -168,6 +168,18 @@ MFCProject/
 - [ ] Contour 기반 중심/면적/바운딩 박스 측정
 - [ ] 이동 경로를 <b>동영상(GIF)</b>으로 내보내기
 - [ ] 딥러닝 객체 검출(YOLO 등) 연동 → <b>AI Tools Platform</b>과 REST로 연결
+
+<a class="backtotop" href="#top">⬆ Back to top</a>
+
+
+## 📝 개선점 & 배운 점 <a id="insights"></a>
+
+- CImage 픽셀 버퍼(BGRA)를 직접 다루며 **저수준 메모리 접근과 이미지 구조**에 대한 이해를 확립했습니다.
+- 좌표 이동 및 화면 갱신 과정에서 **DC(Device Context) 구조와 GDI 렌더링 흐름**을 명확히 파악했습니다.
+- UI 기능을 Dialog 단위로 분리함으로써 **기능별 책임 분리와 유지보수성**의 중요성을 체감했습니다.
+- 캡처 저장 경로/포맷이 코드에 고정되어 있어 → 차후 **설정 파일 또는 UI 입력 방식으로 확장**할 계획입니다.
+- centroid 탐색 시 단순 RGB 조건만 사용 → 이후 **OpenCV + Threshold/Contour 기반으로 정확도 개선** 예정입니다.
+- 본 프로젝트를 기반으로 **딥러닝 / Computer Vision 포트폴리오**로 확장 가능한 발판을 마련했습니다.
 
 <a class="backtotop" href="#top">⬆ Back to top</a>
 
