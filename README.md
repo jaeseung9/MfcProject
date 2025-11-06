@@ -16,20 +16,6 @@
 </p>
 
 
-<style>
-:root{
-  --bg:#fff; --fg:#222; --muted:#666; --accent:#2463EB; --border:#e5e7eb;
-}
-.section{margin:18px 0 8px}
-.badge{display:inline-block;padding:2px 8px;border:1px solid var(--border);border-radius:999px;font-size:12px;margin-right:6px}
-.code{background:#0f172a;color:#e5e7eb;padding:10px 12px;border-radius:10px;line-height:1.45;overflow:auto}
-.kbd{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;background:#f3f4f6;border:1px solid #e5e7eb;border-bottom-width:2px;padding:1px 6px;border-radius:6px}
-blockquote{border-left:4px solid var(--accent);padding:10px 12px;margin:8px 0;background:#f8fafc}
-hr{border:none;border-top:1px solid var(--border);margin:16px 0}
-.toc a{text-decoration:none}
-.backtotop{display:inline-block;margin-top:8px;font-size:13px}
-</style>
-
 <!-- ──────────────────────────────────────────────────────────────────────────────
   Table of Contents
 ──────────────────────────────────────────────────────────────────────────────── -->
