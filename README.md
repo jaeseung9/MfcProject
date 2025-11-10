@@ -172,7 +172,7 @@ MFCProject/
 <a class="backtotop" href="#top">⬆ Back to top</a>
 
 
-## 📝 개선점 & 배운 점 <a id="insights"></a>
+## 📝 개선점 <a id="insights"></a>
 
 - CImage 픽셀 버퍼(BGRA)를 직접 다루며 **저수준 메모리 접근과 이미지 구조**에 대한 이해를 확립했습니다.
 - 좌표 이동 및 화면 갱신 과정에서 **DC(Device Context) 구조와 GDI 렌더링 흐름**을 명확히 파악했습니다.
